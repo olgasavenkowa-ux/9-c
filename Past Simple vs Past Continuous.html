@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Past Simple vs Past Continuous</title>
+<style>:root{--bg:#f7f6f2;--card:#fff;--tx:#1f2328;--mu:#667;--ac:#2f6fed;--ok:#1b8a4b;--no:#c93a3a;--bd:#d9d6cc;--hl:#fff3bf;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17181b;--card:#222428;--tx:#ececec;--mu:#9aa;--ac:#6c9bff;--ok:#4cc380;--no:#ff7b7b;--bd:#3a3d44;--hl:#4a4320}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px}h1{font-size:1.5rem;margin:.3em 0}.sub{color:var(--mu);margin:0 0 16px}
+section{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 18px;margin:16px 0}h2{font-size:1.15rem;margin:0 0 4px}.ins{color:var(--mu);margin:0 0 12px;font-size:.95rem}
+.q{margin:10px 0}.opt{font:inherit;border:1px solid var(--bd);background:transparent;color:var(--tx);border-radius:8px;padding:0 10px;margin:0 2px;cursor:pointer}
+.opt.sel{background:var(--ac);color:#fff;border-color:var(--ac)}.opt.ok{background:var(--ok);color:#fff;border-color:var(--ok)}.opt.no{background:var(--no);color:#fff;border-color:var(--no)}
+input{font:inherit;width:9.5em;border:0;border-bottom:2px solid var(--ac);background:transparent;color:var(--tx);text-align:center;padding:0 2px}input.ok{border-color:var(--ok);color:var(--ok)}input.no{border-color:var(--no);color:var(--no)}
+.n{font-size:.75rem;color:var(--mu);vertical-align:super}.h{color:var(--mu);font-size:.85rem}.ex{background:var(--hl);border-radius:6px;padding:0 6px}.sp{font-weight:700}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}button.b{font:inherit;border:0;border-radius:8px;padding:6px 14px;background:var(--ac);color:#fff;cursor:pointer}button.g{background:transparent;color:var(--tx);border:1px solid var(--bd)}.sc{font-weight:600}
+.ans{color:var(--ok);font-size:.85rem}</style></head><body><main>
+<h1>Past Simple vs Past Continuous</h1><p class="sub">Interactive worksheet · 3 exercises</p>
+<section id="s1"><h2>1. Choose the correct verb form</h2><p class="ins">Tap the correct option.</p><div id="c1"></div><div class="bar"><button class="b" data-a="chk1">Check</button><button class="b g" data-a="rst1">Reset</button><span class="sc" id="r1"></span></div></section>
+<section id="s2"><h2>2. Complete the description</h2><p class="ins">Put the verbs in brackets into the correct form (Past Simple or Past Continuous).</p><div id="c2"></div><div class="bar"><button class="b" data-a="chk2">Check</button><button class="b g" data-a="shw2">Show answers</button><button class="b g" data-a="rst2">Reset</button><span class="sc" id="r2"></span></div></section>
+<section id="s3"><h2>3. Complete the conversation</h2><p class="ins">Use the Past Simple or Past Continuous form of the verbs.</p><div id="c3"></div><div class="bar"><button class="b" data-a="chk3">Check</button><button class="b g" data-a="shw3">Show answers</button><button class="b g" data-a="rst3">Reset</button><span class="sc" id="r3"></span></div></section>
+</main><script>
+const D={"e1": [["When I [walked|was walking] near the river, I saw some beautiful flowers.", 1], ["Freddie [spent|was spending] three months in Nepal last year.", 0], ["My mum [fixed|was fixing] my computer for me last night. Now it works!", 0], ["I’m sorry I didn’t call you sooner but I [was studying|studied] all afternoon.", 0], ["I [read|was reading] my text messages, when my doorbell rang.", 1], ["They filmed us while we [are|were playing] in the garden.", 1]], "e2": "I {0|found|find} some interesting shells when I {1|walk} along the beach. I {2|pick} them up and {3|put} them in my pocket. Then I noticed that my dog {4|run} to me with a piece of wood in his mouth. When he got to me, he {5|drop} it and, of course, wanted me to throw it again. But while I {6|look} at it, I realised that it was a leg from an old chair. By the time I was ready to go home, I {7|have} quite a collection of things from the beach! While I {8|clean} them later, I {9|have} the idea of creating a piece of art with them. I {10|take} a photo of the finished piece and uploaded it to the internet.", "a2": {"0": ["found"], "1": ["was walking"], "2": ["picked"], "3": ["put"], "4": ["was running"], "5": ["dropped"], "6": ["was looking"], "7": ["had"], "8": ["was cleaning"], "9": ["had"], "10": ["took"]}, "e3": [["Barbara", "What {1|you / do} in the hall cupboard for so long?"], ["Rhiannon", "I {2|look} for my winter boots."], ["Barbara", "{3|you / find} them?"], ["Rhiannon", "No, but I’m sure I {4|put} them there last spring. I remember when I {5|tidy} my room, I {6|decide} I {7|not / want} to keep them there in the summer."], ["Barbara", "I guess Alex {8|move} them. He {9|use} that cupboard for his sports gear for a few months, until he {10|stop} going to the gym."], ["Rhiannon", "Well, I hope he {11|not / throw} my favourite boots away! They {12|cost} a lot of money!"]], "a3": {"1": ["were you doing"], "2": ["was looking"], "3": ["did you find"], "4": ["put"], "5": ["was tidying"], "6": ["decided"], "7": ["didn’t want", "did not want"], "8": ["moved"], "9": ["used", "was using"], "10": ["stopped"], "11": ["didn’t throw", "did not throw"], "12": ["cost"]}};
+const $=s=>document.querySelector(s);
+const norm=s=>s.toLowerCase().replace(/[’`]/g,"'").replace(/\s+/g," ").trim();
+const alt=a=>a.flatMap(x=>[norm(x),norm(x).replace(/n't/g," not").replace(/did not/g,"didn't")]);
+function gaps(t,ans,pre){return t.replace(/\{(\d+)\|([^}]*)\}/g,(m,n,h)=>{h=h.split("|");const hint=h[h.length-1];return '<sup class="n">'+n+'</sup><input data-k="'+pre+n+'" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="gap '+n+'"> <span class="h">('+hint+')</span>'})}
+function build(){
+ $("#c1").innerHTML=D.e1.map((q,i)=>'<div class="q" data-i="'+i+'"><b>'+(i+1)+'</b> '+q[0].replace(/\[([^\]]+)\]/,(m,o)=>o.split("|").map((x,j)=>'<button class="opt" data-j="'+j+'">'+x+'</button>').join(" / "))+'</div>').join("");
+ $("#c2").innerHTML='<p>'+gaps(D.e2.replace("{0|found|find}",'<span class="ex"><sup class="n">0</sup> <u>found</u> <span class="h">(find)</span></span>'),0,"b")+'</p>';
+ $("#c3").innerHTML=D.e3.map(r=>'<p><span class="sp">'+r[0]+':</span> '+gaps(r[1],0,"c")+'</p>').join("");
+}
+function fix2(){const f=D.e2.replace(/\{0\|found\|find\}/,"");}
+build();
+document.addEventListener("click",e=>{
+ const o=e.target.closest(".opt");if(o){o.parentElement.querySelectorAll(".opt").forEach(x=>x.classList.remove("sel","ok","no"));o.classList.add("sel");return}
+ const a=e.target.dataset.a;if(!a)return;
+ if(a=="chk1"){let s=0;document.querySelectorAll("#c1 .q").forEach(q=>{const c=D.e1[q.dataset.i][1];q.querySelectorAll(".opt").forEach((b,j)=>{b.classList.remove("ok","no");if(b.classList.contains("sel")){b.classList.add(j==c?"ok":"no");if(j==c)s++}})});$("#r1").textContent=s+" / "+D.e1.length}
+ if(a=="rst1"){build();$("#r1").textContent=""}
+ const m=a.match(/(chk|shw|rst)([23])/);if(m){const n=m[2],A=n=="2"?D.a2:D.a3,pre=n=="2"?"b":"c";let s=0,t=0;
+  document.querySelectorAll("#c"+n+" input").forEach(i=>{const k=i.dataset.k.slice(1),ok=alt(A[k]||[]);t++;
+   if(m[1]=="rst"){i.value="";i.className="";i.nextElementSibling.nextSibling&&0}
+   if(m[1]=="shw"){i.value=A[k][0];i.className="ok"}
+   if(m[1]=="chk"){const g=norm(i.value)==="" ?null:ok.includes(norm(i.value));i.className=g===null?"":g?"ok":"no";if(g)s++}});
+  $("#r"+n).textContent=m[1]=="chk"?s+" / "+t:""}
+});
+</script></body></html>
